@@ -1,0 +1,89 @@
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bookus-section {
+   font-family: "Roboto";
+}
+
+.bookus-head {
+    font-family: "Roboto";
+    color: red;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.category {
+    display: flex;
+}
+
+
+.btn {
+    background-color: black;
+    color:#ffffff;
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.search{
+    border: none;
+    outline: none;
+}
+
+.icon {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    border: 1px solid gray;
+}
+.favourites-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    margin-right: 30px;
+}
+
+.signIn-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-signIn {
+    background-color: transparent;
+    color:black;
+    padding: 1px;
+    border: 1px solid gray;
+    width: 70px;
+    height: 30px;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.list li {
+    margin-right: 20px;
+}

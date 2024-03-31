@@ -1,0 +1,26 @@
+.bg-container {
+    background-image: url('https://res.cloudinary.com/dhq57bu5f/image/upload/v1711878633/Banner_uulyyr.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+.heading {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 48px;
+    width: 60%;
+}
+
+.para {
+    color: #ffffff;
+    font-family: "Roboto";
+    width: 50%;
+
+}
